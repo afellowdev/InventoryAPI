@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\kevin\projects\Publish\WebAPI\InventoryAPI</_PublishTargetUrl>
+    <History>True|2022-02-03T23:21:09.6045104Z;True|2022-02-03T15:20:47.1018693-06:00;True|2022-02-03T14:48:55.0069359-06:00;True|2022-02-03T14:00:37.2304507-06:00;True|2022-02-03T13:25:44.1995707-06:00;True|2022-02-03T13:21:19.0413866-06:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConn">
+      <Value>server=localhost%3bdatabase=inventorydb%3btrusted_connection=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="InventoryAPI.Data.DataContext">
+      <Value>server=localhost%3bdatabase=inventorydb%3btrusted_connection=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
